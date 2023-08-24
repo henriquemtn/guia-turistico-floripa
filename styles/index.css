@@ -4,6 +4,7 @@
 
 - CORES - 
 
+Azul gradient: rgba(52,138,219,1);
 Azul: #73b2fa;
 Verde neon: #A3EBB1;
 Azul verde: #21B6A8;
@@ -35,16 +36,28 @@ ul{
 
 li {
     color: #222;
-    list-style: none; 
+    list-style: none;
+    cursor: pointer; 
+}
+
+li:hover{
+    color:#73b2fa;
+    transition: 0.1s;
 }
 
 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     height: 40px;
     width: 160px;
     color: white;
-    background-color: #73b2fa;
+    background: rgba(52,138,219,1);
     border-radius: 20px;
+    cursor: pointer;
+    gap: 5px;
+
 }
 
 .logo{
@@ -53,11 +66,12 @@ button{
     gap: 6px;
 }
 h1{
-    color: #73b2fa;
+    color: rgba(52,138,219,1);
 }
 
 .banner{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-image: url("https://www.brognoli.com.br/blog/wp-content/uploads/2022/10/brazil-gba22cdd41_1920.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
