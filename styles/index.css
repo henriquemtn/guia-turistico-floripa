@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+/*
+
+- CORES - 
+
+Azul: #73b2fa;
+Verde neon: #A3EBB1;
+Azul verde: #21B6A8;
+Verde: #116530;
+Branco: #fff;
+Preto: #222;
+
+*/  
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+}
+
+li {
+    color: #222;
+    list-style: none; 
+}
+
+button{
+    border: none;
+    height: 40px;
+    width: 160px;
+    color: white;
+    background-color: #73b2fa;
+    border-radius: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+h1{
+    color: #73b2fa;
+}
+
+.banner{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/09/Morro_da_Cruz%2C_Florian%C3%B3polis_-_SC%2C_Brazil_-_panoramio_%28cropped%29.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 80vh;
+}
+
+.content-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-texto h1{
+    font: bold;
+    color: #fff;
+}
+
+.content .box{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 60px;
+    padding: 10px 20px;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 10vh;
+}
+
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.buscar input{
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    width: 20vw;
+}
+
+.enviar{
+    width: 100px;
+    border-radius: 10px;
+}
