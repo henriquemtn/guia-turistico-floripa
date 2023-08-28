@@ -1,0 +1,66 @@
+.regioes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.all-boxes{
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.content-box{
+    border: 2px solid #222;
+}
+
+.content-box img{
+    width: 400px;
+    height: 300px   ;
+}
+
+.agendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 30px;
+}
+
+.sobre h1{
+    color: #222;
+}
+
+.sobre p{
+    margin-top: 20px;
+    max-width: 600px;
+}
+.sobre-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre .imagens{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sobre img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+}
