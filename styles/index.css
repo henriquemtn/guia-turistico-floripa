@@ -20,6 +20,10 @@ Preto: #222;
     font-family: 'Mulish', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav{
     display: flex;
     width: 100vw;
@@ -28,6 +32,16 @@ nav{
     justify-content: space-around;
     position: fixed;
 
+
+}
+
+a { 
+    color: inherit; 
+} 
+
+a:hover{
+    color: #73b2fa;
+    transition: 0.2s;
 }
 
 ul{
@@ -181,3 +195,30 @@ h1{
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(52,138,219,1);
+    height: 80px;
+    width: 100vw;
+    color: white;
+    margin-top: 40px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid label{
+    color: #686868;
+    font-size: 14px;
+ }
